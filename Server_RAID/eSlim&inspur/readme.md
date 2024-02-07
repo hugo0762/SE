@@ -39,9 +39,10 @@ eSlim / inspur 서버 바이오스 HDD RAID 설정
 ![e12](https://github.com/hugo0762/SE/blob/main/Server_RAID/images/e12.png) 
 
 13. 정상 동작했다는 내용 확인 후 ‘OK’ 확인<br><br>
-![e13](https://github.com/hugo0762/SE/blob/main/Server_RAID/images/e13.png) 
+![e13](https://github.com/hugo0762/SE/blob/main/Server_RAID/images/e13.png)
+<br><br>
 ※ RAID 지정 후에는 모든 HDD 가 동일하게 점등되는 부분 확인 가능
 
-14. 설치 완료.
+15. 설치 완료.
 
 
