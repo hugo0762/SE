@@ -1,0 +1,34 @@
+Huawei 서버 바이오스 HDD RAID 설정
+※ 서버에 HDD 장착 후 정상 녹색 점등 확인
+
+1. 서버 On 후, ‘Ctrl+R’ 키 입력으로 MegaRAID Configuration Utility로 진입
+
+
+2. 제일 상위 경로에서 F2 입력 후 ‘Clear Configuration’을 통해 구성을 초기화
+
+
+3. 확인 창에서 YES
+
+
+4. ‘No Configuration Present!’에러 F2 입력 후 ‘Create Virtual Drive’ 입력
+
+
+5. RAID 설정 변경
+
+
+6. 구성 대상 HDD 선택 
+
+
+7. 초기화 여부 확인 후 OK 혹은 Cancel 선택
+
+
+8. RAID 구성된 부분 확인
+
+
+9. ESC -> OK 입력으로 나가기
+
+
+10. 재부팅 진행
+
+
+
