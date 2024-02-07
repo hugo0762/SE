@@ -7,6 +7,7 @@ Huawei 서버 바이오스 HDD RAID 설정
 2. 제일 상위 경로에서 F2 입력 후 ‘Clear Configuration’을 통해 구성을 초기화
 ![h2](https://github.com/hugo0762/SE/blob/main/Server_RAID/images/h2.png)
 
+
 3. 확인 창에서 YES
 ![h3](https://github.com/hugo0762/SE/blob/main/Server_RAID/images/h3.png)
 
