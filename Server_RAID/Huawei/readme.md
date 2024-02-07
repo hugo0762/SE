@@ -2,10 +2,10 @@ Huawei 서버 바이오스 HDD RAID 설정
 ※ 서버에 HDD 장착 후 정상 녹색 점등 확인
 
 1. 서버 On 후, ‘Ctrl+R’ 키 입력으로 MegaRAID Configuration Utility로 진입
-![h1](https://github.com/hugo0762/SE/assets/159121258/b1320930-ee04-4f8b-8c04-53cc25bd9c9c)
+![h1](https://github.com/hugo0762/SE/blob/main/Server_RAID/images/h1.png)
 
 2. 제일 상위 경로에서 F2 입력 후 ‘Clear Configuration’을 통해 구성을 초기화
-
+![h2](https://github.com/hugo0762/SE/blob/main/Server_RAID/images/h2.png)
 
 3. 확인 창에서 YES
 
