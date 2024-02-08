@@ -34,7 +34,7 @@ eSlim / inspur 서버 바이오스 HDD RAID 설정
 11. ‘Select RAID Level’ 을 통해 RAID 5 설정<br><br>
 ![e11](https://github.com/hugo0762/SE/blob/main/Server_RAID/images/e11.png) 
 
-12. ‘Select Drives’를 진입하여 구성될 HDD Enabled 설정 
+12. ‘Select Drives’를 진입하여 구성될 HDD Enabled 설정 <br><br>
 모든 HDD 에 대해 구성할 경우 하단의 Check All 를 통해 한번에 Enabled 후 Apply Changes<br><br>
 ![e12](https://github.com/hugo0762/SE/blob/main/Server_RAID/images/e12.png) 
 
