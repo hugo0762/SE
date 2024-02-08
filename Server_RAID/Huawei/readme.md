@@ -11,7 +11,7 @@ Huawei 서버 바이오스 HDD RAID 설정<br> <br>
 3. 확인 창에서 YES<br> <br>
 ![h3](https://github.com/hugo0762/SE/blob/main/Server_RAID/images/h3.png)
 
-4. ‘No Configuration Present!’에러 F2 입력 후 ‘Create Virtual Drive’ 입력<br> <br>
+4. ‘No Configuration Present!’에서 F2 입력 후 ‘Create Virtual Drive’ 입력<br> <br>
 ![h4](https://github.com/hugo0762/SE/blob/main/Server_RAID/images/h4.png)
 
 5. RAID 설정 변경<br> <br>
