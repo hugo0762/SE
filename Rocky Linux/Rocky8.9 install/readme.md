@@ -58,7 +58,7 @@ Ctrl+S : USB를 인식 못하는 현상 발생
 15. 환영 메세지 다음 클릭<br><br>
 ![r17](https://github.com/hugo0762/SE/blob/main/Rocky%20Linux/Rocky8.9%20install/images/r17.png)
 
-15. 위치 정보 서비스는 서비스에 따라 ON/OFF 택일 후 다음<br><br>
+15. 위치 정보 서비스는 서비스에 따라 OFF 선택 다음<br><br>
 ![r18](https://github.com/hugo0762/SE/blob/main/Rocky%20Linux/Rocky8.9%20install/images/r18.png)
 
 16. 전체 이름 / 사용자 이름 지정 후 다음<br><br>
