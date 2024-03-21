@@ -5,3 +5,9 @@ for vm in $(virsh list --all --name ); do
     #echo $(virsh dommemstat $vm | grep actual)
     #echodd
 done
+
+
+./qcow2_memoryavailcheck.sh > res.txt
+
+cat res.txt | awk '{pring $1}'
+cat res.txt | awk '{pring $1}'
