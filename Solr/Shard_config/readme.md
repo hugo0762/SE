@@ -1,4 +1,4 @@
-http://10.10.11.50:8983/solr/admin/collections?action=CREATESHARD&shard=shard3&collection=netlog&createNodeSet=10.10.11.54:8983_solr
+"http://10.10.11.50:8983/solr/admin/collections?action=CREATESHARD&shard=shard3&collection=netlog&createNodeSet=10.10.11.54:8983_solr"
 
 http://10.10.11.50:8983/solr/admin/collections?action=CREATESHARD&shard=shard4&collection=netlog&createNodeSet=10.10.11.56:8983_solr
 
