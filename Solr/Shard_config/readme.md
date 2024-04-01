@@ -75,3 +75,24 @@ Collections -> netlog
 
 81, 83, 85, 87, 89
 
+
+
+서비스 종료
+
+/usr/bin/sh /home/sysadmin/onpremise/onpremise_config/plura_auto_shutdown.sh
+
+시간 확인
+
+ansible -i /home/sysadmin/ansible/hosts all-hosts -m shell -a "date"
+
+/usr/bin/sh /home/sysadmin/ansible/cronjob/a_ntpdate.sh
+
+/usr/bin/sh /home/sysadmin/ansible/cronjob/a_chrony.sh
+
+KVM 서버 종료
+
+ansible -i /home/sysadmin/ansible/hosts all-hosts -m shell -a "sudo shutdown now"
+
+서비스 기동
+
+/usr/bin/sh /home/sysadmin/onpremise/onpremise_config/plura_auto_startup.sh
