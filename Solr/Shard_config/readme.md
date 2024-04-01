@@ -6,6 +6,7 @@
 기존 10.10.11.50 설정된 부분 찾아 아래 추가 필요
 
 [solr 머신 복제]54~59 추가 되어 있음->확인 필요
+
 virt-clone --original 011052-solr --name 011080-solr --file /var/lib/libvirt/images/011080-solr.qcow2
 virt-clone --original 011052-solr --name 011081-solr --file /var/lib/libvirt/images/011081-solr.qcow2
 virt-clone --original 011052-solr --name 011082-solr --file /var/lib/libvirt/images/011082-solr.qcow2
