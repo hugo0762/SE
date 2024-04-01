@@ -8,14 +8,23 @@
 [solr 머신 복제]54~59 추가 되어 있음->확인 필요
 
 virt-clone --original 011052-solr --name 011080-solr --file /var/lib/libvirt/images/011080-solr.qcow2
+
 virt-clone --original 011052-solr --name 011081-solr --file /var/lib/libvirt/images/011081-solr.qcow2
+
 virt-clone --original 011052-solr --name 011082-solr --file /var/lib/libvirt/images/011082-solr.qcow2
+
 virt-clone --original 011052-solr --name 011083-solr --file /var/lib/libvirt/images/011083-solr.qcow2
+
 virt-clone --original 011052-solr --name 011084-solr --file /var/lib/libvirt/images/011084-solr.qcow2
+
 virt-clone --original 011052-solr --name 011085-solr --file /var/lib/libvirt/images/011085-solr.qcow2
+
 virt-clone --original 011052-solr --name 011086-solr --file /var/lib/libvirt/images/011086-solr.qcow2
+
 virt-clone --original 011052-solr --name 011087-solr --file /var/lib/libvirt/images/011087-solr.qcow2
+
 virt-clone --original 011052-solr --name 011088-solr --file /var/lib/libvirt/images/011088-solr.qcow2
+
 virt-clone --original 011052-solr --name 011089-solr --file /var/lib/libvirt/images/011089-solr.qcow2
 
 [solr 80~89 번 10.10.10.12 서버로 이동]
