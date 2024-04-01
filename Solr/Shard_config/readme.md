@@ -30,11 +30,20 @@ virt-clone --original 011052-solr --name 011088-solr --file /var/lib/libvirt/ima
 
 virt-clone --original 011052-solr --name 011089-solr --file /var/lib/libvirt/images/011089-solr.qcow2
 
-[solr 80~89 번 10.10.10.12 서버로 이동]
+[solr 80, 82, 84, 86, 88 번 10.10.10.10 서버로 이동]
 
-scp /var/lib/libvirt/images/01108*solr.qcow2 root@10.10.10.12:/var/lib/libvirt/images/
+scp /var/lib/libvirt/images/011080-solr.qcow2 011082-solr.qcow2 011084-solr.qcow2 011086-solr.qcow2 011088-solr.qcow2 root@10.10.10.10:/var/lib/libvirt/images/
 
-scp /etc/libvirt/qemu/01108*solr.xml root@10.10.10.12:/etc/libvirt/qemu/
+scp /etc/libvirt/qemu/011080-solr.xml 011082-solr.xml 011084-solr.xml 011086-solr.xml 011088-solr.xml root@10.10.10.10:/etc/libvirt/qemu/
+
+[solr 81, 83, 85, 87, 89 번 10.10.10.11 서버로 이동]
+
+scp /var/lib/libvirt/images/011081-solr.qcow2 011083-solr.qcow2 011085-solr.qcow2 011087-solr.qcow2 011089-solr.qcow2 root@10.10.10.11:/var/lib/libvirt/images/
+
+scp /etc/libvirt/qemu/011081-solr.xml 011083-solr.xml 011085-solr.xml 011087-solr.xml 011089-solr.xml root@10.10.10.11:/etc/libvirt/qemu/
+
+[solr 80~89 ip, hostname 변경]
+nmtui
 
 [solr app 기동]
 
