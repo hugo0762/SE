@@ -1,44 +1,54 @@
 
 
-MSA 시작
+MSA 시작<br>
 /usr/bin/sh /home/sysadmin/onpremise/onpremise_config/plura_auto_startup.sh > plura_auto_startup.log 2>&1
-MSA 종료
+<br>
+MSA 종료<br>
 /usr/bin/sh /home/sysadmin/onpremise/onpremise_config/plura_auto_shutdown.sh > plura_auto_stutdown.log 2>&1
-kvm 종료
+<br>
+kvm 종료<br>
 ansible -i /home/sysadmin/ansible/hosts all-hosts -m shell -a "sudo shutdown now"
+<br>
+<br>
+시간 확인 sysamdin 계정<br>
+ansible -i /home/sysadmin/ansible/hosts all-hosts -m shell -a "date"<br>
 
-시간 확인 sysamdin 계정
-ansible -i /home/sysadmin/ansible/hosts all-hosts -m shell -a "date"
-시간 동기화
-/usr/bin/sh /home/sysadmin/ansible/cronjob/a_ntpdate.sh
-/usr/bin/sh /home/sysadmin/ansible/cronjob/a_chrony.sh
+시간 동기화<br>
+/usr/bin/sh /home/sysadmin/ansible/cronjob/a_ntpdate.sh<br>
+/usr/bin/sh /home/sysadmin/ansible/cronjob/a_chrony.sh<br>
 
-
+<br>
 ansible -i /home/sysadmin/ansible/hosts all-hosts -m shell -a "sudo systemctl restart chronyd"
-================================================
+<br>
+================================================<br>
 가상머신 파일 개수 확인
+<br>
 ls /etc/libvirt/qemu/*.xml | wc -l
+<br>
 ls /var/lib/libvirt/images/*.qcow2 | wc -l
+<br><br>
 
-
-================================================
-가상머신 복제
+================================================<br>
+가상머신 복제<br>
 virt-clone --original 011052-solr --name 011054-solr --file /var/lib/libvirt/images/011054-solr.qcow2
-
-가상머신 시작 cmd
+<br>
+가상머신 시작 cmd<br>
 virsh start 011052-solr
-
-가상머신 다운 cmd
+<br>
+가상머신 다운 cmd<br>
 virsh shutdown 011052-solr
-
-가상머신 삭제 cmd
+<br>
+가상머신 삭제 cmd<br>
 virsh undefine 011052-solr
+<br>
 ※ qcow2 파일은 삭제가 안되므로 수동 삭제
-
-가상머신 용량 증설
+<br>
+가상머신 용량 증설<br>
 qemu-img resize /var/lib/libvirt/images/011021-solr.qcow2 +600G
+<br>
 mount
-fdisk -l
+<br>
+fdisk -l<br>
 mknod /dev/vda4 b 8 4 -> ※경로가 바낄수 있음. fisk -l 먼저 확인
 chown root:disk /dev/vda4 -> ※경로가 바낄수 있음. fisk -l 먼저 확인
 fdisk /dev/vda
