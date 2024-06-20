@@ -1,3 +1,5 @@
+promisc 모드 service 등록
+
 [Unit]
 Description=Port Mirror
 After=network.target
