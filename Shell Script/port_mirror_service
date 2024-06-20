@@ -1,4 +1,6 @@
 promisc 모드 service 등록
+vi /etc/systemd/system/mirror.service
+
 
 [Unit]
 Description=Port Mirror
