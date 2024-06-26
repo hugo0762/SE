@@ -154,6 +154,10 @@ tc qdisc del dev brm0 ingress
 <br>
 
 내부 테스트 <br>
+tcpdump -i brm0 -n -X "dst 172.16.10.99 and tcp port 80"  | grep hello
+<br>
+tcpdump -i enp7s0 -n -X "dst 172.16.10.99 and tcp port 80"  | grep hello
+<br>
 tcpdump -i brm0 -n -X "tcp port 80"  | grep hello
 <br>
 tcpdump -i enp7s0 -n -X "tcp port 80"  | grep hello
