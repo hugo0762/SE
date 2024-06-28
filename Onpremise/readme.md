@@ -172,7 +172,6 @@ ping 테스트 통신 안되는 경우<br>
 route 
 <br>
 기본 route 설정<br>
-<br>
 route add default gw [gw addr] dev [NIC]
 <br>
 route add default gw 172.16.0.1 dev br172
