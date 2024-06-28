@@ -163,3 +163,22 @@ tcpdump -i brm0 -n -X "tcp port 80"  | grep hello
 tcpdump -i enp7s0 -n -X "tcp port 80"  | grep hello
 <br>
 http://172.16.10.99/hello
+<br>
+<br>
+================================================<br>
+ping 테스트 통신 안되는 경우<br>
+기본 route 설정 확인<br>
+<br>
+route 
+<br>
+기본 route 설정<br>
+<br>
+route add default gw [gw addr] dev [NIC]
+<br>
+route add default gw 172.16.0.1 dev br172
+<br><br>
+기본 route 설정 해제<br>
+route del default gw [gw addr] dev [NIC]
+<br>
+route del default gw 172.16.0.1 dev br172
+
